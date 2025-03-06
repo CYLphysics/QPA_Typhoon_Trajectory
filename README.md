@@ -54,16 +54,17 @@ conda env create -f QPA_Typhoon_Trajectory.yaml
 ## Example use cases
 1. `QPA_ck_64_qnn_depth_20.ipynb`
 
-    In this notebook we demostrate the end-to-end training and testing flow for using QPA, a quantum method, to efficiently train the ConvGRU classical model with only 2.57% of the original number of trainable parameters. 
+    In this notebook, we demonstrate the end-to-end training and testing workflow for applying Quantum Parameter Adaptation (QPA)—a quantum-enhanced method—to efficiently train the classical ConvGRU model using only 2.57% of the original trainable parameters, while maintaining competitive performance.
+
 2. `Classical_Model_baseline.ipynb`
 
-    This notebook shows the pure classical training baseline for the original ConvGRU model with 8M parameters. 
+    This notebook presents the pure classical training baseline for the original ConvGRU model, which consists of 8 million trainable parameters.
 
 3. `Classical_Model_pruning_01.ipynb` and `Classical_Model_weight_sharing_1.ipynb`
 
-    Since QPA is essetially a quantum-enhanced parameter efficient learning method, so we also compare it with the two famous classical neural compression methods, pruning and weight sharing
+    Since QPA is essentially a quantum-enhanced parameter-efficient learning method, we also compare it with two well-known classical neural compression techniques: pruning and weight sharing.
+The comparison results are recorded and visualized in  `Plot_notebook_quantum_vs_classical_result_plot.ipynb`.  
 
-The comparison result is recorded and plotted in `Plot_notebook_quantum_vs_classical_result_plot.ipynb`.  
 <p align="center">
   <picture>
     <img alt=" " src="./results/plots/quantum_vs_classical_result_plot.png" width="85%">
