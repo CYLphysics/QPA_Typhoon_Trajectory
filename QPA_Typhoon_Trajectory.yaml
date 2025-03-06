@@ -177,19 +177,19 @@ dependencies:
     - notebook==7.3.2
     - notebook-shim==0.2.4
     - numpy==1.26.4
-    - nvidia-cublas-cu12==12.4.5.8
-    - nvidia-cuda-cupti-cu12==12.4.127
-    - nvidia-cuda-nvrtc-cu12==12.4.127
-    - nvidia-cuda-runtime-cu12==12.4.127
-    - nvidia-cudnn-cu12==9.1.0.70
-    - nvidia-cufft-cu12==11.2.1.3
-    - nvidia-curand-cu12==10.3.5.147
-    - nvidia-cusolver-cu12==11.6.1.9
-    - nvidia-cusparse-cu12==12.3.1.170
+    - nvidia-cublas-cu12==12.1.3.1
+    - nvidia-cuda-cupti-cu12==12.1.105
+    - nvidia-cuda-nvrtc-cu12==12.1.105
+    - nvidia-cuda-runtime-cu12==12.1.105
+    - nvidia-cudnn-cu12==8.9.2.26
+    - nvidia-cufft-cu12==11.0.2.54
+    - nvidia-curand-cu12==10.3.2.106
+    - nvidia-cusolver-cu12==11.4.5.107
+    - nvidia-cusparse-cu12==12.1.0.106
     - nvidia-cusparselt-cu12==0.6.2
-    - nvidia-nccl-cu12==2.21.5
-    - nvidia-nvjitlink-cu12==12.4.127
-    - nvidia-nvtx-cu12==12.4.127
+    - nvidia-nccl-cu12==2.19.3
+    - nvidia-nvjitlink-cu12==12.1.105
+    - nvidia-nvtx-cu12==12.1.105
     - openfermion==1.6.1
     - orderly-set==5.3.0
     - overrides==7.7.0
@@ -215,14 +215,14 @@ dependencies:
     - pyjwt==2.10.1
     - pyparsing==3.2.1
     - pyproj==3.6.1
-    - pyqtorch==1.7.0
+    - pyqtorch==1.7.1
     - pyshp==2.3.1
     - python-dateutil==2.9.0.post0
     - python-json-logger==3.2.1
     - pytz==2025.1
     - pyyaml==6.0.2
     - pyzmq==26.2.1
-    - qadence==1.10.3
+    - qadence==1.11.0
     - referencing==0.36.2
     - regex==2024.11.6
     - requests==2.32.3
@@ -239,7 +239,7 @@ dependencies:
     - sortedcontainers==2.4.0
     - soupsieve==2.6
     - stack-data==0.6.3
-    - sympy==1.13.1
+    - sympy==1.12.1
     - sympytorch==0.1.4
     - tensorboard==2.19.0
     - tensorboard-data-server==0.7.2
@@ -248,13 +248,13 @@ dependencies:
     - tinycss2==1.4.0
     - tokenizers==0.21.0
     - tomli==2.2.1
-    - torch==2.6.0
-    - torchvision==0.21.0
+    - torch==2.2.0
+    - torchvision==0.17.0
     - tornado==6.4.2
     - tqdm==4.67.1
     - traitlets==5.14.3
     - transformers==4.49.0
-    - triton==3.2.0
+    - triton==2.2.0
     - types-python-dateutil==2.9.0.20241206
     - typing-extensions==4.12.2
     - tzdata==2025.1
