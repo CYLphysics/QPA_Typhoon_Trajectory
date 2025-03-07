@@ -42,6 +42,7 @@ Given the devastating impact of typhoons in Taiwan and other regions worldwide, 
 1. Install the conda environment via the yaml file:
 ```
 conda env create -f QPA_Typhoon_Trajectory.yaml
+conda activate qttp
 ```
 2. Download the ERA-Interim data from the google drive (https://drive.google.com/file/d/1o9oYyg6IUGIs_hT2wv8jnDfkJmhGRSQI/view?usp=sharing). The original data in the official site is unavalilable now as you one may observe here: https://apps.ecmwf.int/datasets/data/interim-full-daily/levtype=sfc/ 
 
@@ -49,7 +50,7 @@ conda env create -f QPA_Typhoon_Trajectory.yaml
 
 4. run the file `data_processing.py` in the `./data` folder (This may cost more than 20 minutes. The data size is quite large, please prepare about 12G of space for this.).
 
-5. Now you are ready! 
+5. Now you are ready! To run this project on a GPU, we recommend using a GPU with at least 10GB of VRAM.
 
 ## Example use cases
 1. `QPA_ck_64_qnn_depth_20.ipynb`
