@@ -44,9 +44,9 @@ Given the devastating impact of typhoons in Taiwan and other regions worldwide, 
 conda env create -f QPA_Typhoon_Trajectory.yaml
 conda activate qttp
 ```
-2. Download the ERA-Interim data from the google drive (https://drive.google.com/file/d/1o9oYyg6IUGIs_hT2wv8jnDfkJmhGRSQI/view?usp=sharing). The original data in the official site is unavalilable now as you one may observe here: https://apps.ecmwf.int/datasets/data/interim-full-daily/levtype=sfc/ 
+2. Download the ERA-Interim data from the google drive (https://drive.google.com/file/d/1o9oYyg6IUGIs_hT2wv8jnDfkJmhGRSQI/view?usp=sharing). The original data on the official site is currently unavailable, as you may observe here: https://apps.ecmwf.int/datasets/data/interim-full-daily/levtype=sfc/ 
 
-3. Unzip the downloaded `z.zip` file, obtained the `z` folder and put it into `./data/ERA_Interim/` . Now you should have a `./data/ERA_Interim/z`
+3. Unzip the downloaded `z.zip` file, obtained the `z` folder and put it into `./data/ERA_Interim/` . Now you should have a folder like `./data/ERA_Interim/z`
 
 4. run the file `data_processing.py` in the `./data` folder (This may cost more than 20 minutes. The data size is quite large, please prepare about 12G of space for this.).
 
