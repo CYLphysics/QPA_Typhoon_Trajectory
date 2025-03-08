@@ -6,6 +6,22 @@
 
 This project explores the integration of Quantum Machine Learning (QML) with classical deep learning models to enhance typhoon trajectory forecasting. Leveraging the Quantum-Train (QT) framework and Quantum Parameter Adaptation (QPA), we demonstrate how quantum-assisted learning can significantly reduce the number of trainable parameters while maintaining high forecasting accuracy.
 
+```
+QPA_Typhoon_Trajectory/
+│
+├── code_base       # Python code for QPA Model and classical baselines 
+├── data
+│   ├── CMA          #  China Meteorological Administration data
+│   └── ERA_Interim       # ECMWF Re-Analysis data. Should download from the link mentioned below.
+├── docs        # Technical report and sustainability impact study
+├── results
+│   ├── plots        # Plots for showing the results
+│   ├── model_saver     # Place for model saving
+│   └── QPA_track_data    # Place for model-generated trajectory data
+└── test     #  Example Jupyter notebooks for producing the numerical experimental results.
+
+```
+
 ### Why This Matters
 Taiwan, where Team QTX originates, is characterized by its steep and mountainous terrain, making it particularly vulnerable to extreme weather events. On average, the island experiences approximately 3.5 typhoons and dozens of torrential rainstorms each year, leading to significant infrastructure damage, agricultural losses, and disruptions to economic activity. These extreme weather events [result](https://nhess.copernicus.org/preprints/nhess-2022-38/) in an estimated annual economic loss of **374.3 million** Euros .
 
